@@ -1,4 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,400&display=swap');
+
+@font-face
+{
+	font-family: 'Beyond';
+	src: url('../fonts/beyond_the_mountains.otf')  format('truetype'),
+		 url('../fonts/beyond_the_mountains.ttf')  format('opentype');
+}
+/* font-family: 'Mulish', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Beyond' */
+
+
+
 *{
     margin: 0;
     padding: 0;
+}
+
+/* Header section style */
+.container{
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+header,
+section {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+/* Nav style */
+
+Header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    gap:16px;
+    align-items: center;
+}
+.nav-right>ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.nav-right>ul a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@media screen and (min-width: 601px){
+    .menubars{
+        display: none;
+    }
+    
+}
+
+/* Banner section style */
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 110px 0px;
+    border-radius: 16px;
+    max-width: 1240px;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+.banner h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    /* padding-top: 106px; */
+}
+.banner p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding-left: 247px;
+    padding-right: 247px;
+}
+.banner-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 280px;
+    padding: 16px 16px;
+}
+.banner input, select, button{
+    background: #ffffff;
+    border-radius: 8px;
+    width: 174px;
+    height: 48px;
+    border: 0px;
+}
+.banner button{
+    background: #ff5400;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Footer style */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 110px 0px;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+
+}
+.flogo-title{
+    color: #131313;
+    font-size: 2.10rem;
+    font-weight: 800;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.section-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+}
+.footer-link ul{
+    display: flex;
+    gap: 24px;
+}
+.footer-link ul li{
+    list-style: none;
+}
+.footer-link ul li a{
+    text-decoration: none;
+}
+.footer-link ul li a>i{
+    width: 24px;
+    color: #131313;
+}
+.hr {
+    background: #ddd;
+    height: 1px;
+    width: 70%;
+    margin: 50px auto;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
 }
