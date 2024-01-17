@@ -277,6 +277,7 @@ Nav{
     padding-bottom: 24px;
     font-family: 'Mulish', sans-serif;
 }
+
 .box-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -335,6 +336,74 @@ video{
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
+
+
+/* Bonus blog section style */
+
+.blog-content{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.blog-content h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.blog-content>p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.reviews {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.reviews img {
+    width: 260px;
+    height: 200px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.review1, .review2, .review3 {
+    width: 300px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 16px;
+}
+
+.reviews h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Beyond';
+}
+
+.reviews p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+
 
 
 
