@@ -164,6 +164,102 @@ Nav{
     border: none;
     outline: none;
 }
+/* Your destination section style */
+.destination-section{
+    margin: 50px auto;
+    text-align: center;
+}
+.destination-section h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.destination-section>p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    font-family: 'Mulish', sans-serif;
+}
+.destination-section .grid-img {
+    display: grid;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.destination-section .grid-img p {
+    padding-top: 132px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Beyond'
+}
+
+.grid-item-1{
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 1/span 10;
+}
+.grid-item-2{
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 11/span 10;
+}
+.grid-item-3{
+    background-image: url('../Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 1/span 8;
+}
+.grid-item-4{
+    background-image: url('../Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 9/span 7;
+}
+.grid-item-5{
+    background-image: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 16/span 5;
+}
+.grid-item-6{
+    background-image: url('../Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 1/span 9;
+}
+.grid-item-7{
+    background-image: url('../Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    border-radius: 16px;
+    grid-column: 10/span 11;
+}
+
+
+
+
 
 /* Footer style */
 footer{
